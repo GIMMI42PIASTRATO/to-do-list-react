@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box ;
+    gap: 1rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 0 7%;
+
+}
+/* ESEMPIO DI BOX-SIZING BORDER-BOX QUI SOPRA */
+
+.imageContainer {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.userImage {
+    width: 4rem;
+    height: 4rem;
+}
+
+.userInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: calc(100% - 6rem);
+    overflow: hidden;
+}
+
+.userName {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.userEmail {
+    font-size: 12px;
+}

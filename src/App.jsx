@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import TodoList from './components/TodoList'
+import { useState } from "react";
+import SideBar from "./components/SideBar";
+import "./style/App.css";
 
 function App() {
-  return (
-    <>
-      <TodoList />
-    </>
-  )
+    return (
+        <>
+            <SideBar />
+        </>
+    );
 }
 
-export default App
+export default App;

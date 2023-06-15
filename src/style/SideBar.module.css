@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto ;
+
+    width: 13%;
+    height: 100%;
+    
+
+    background-color: #222222;
+}
