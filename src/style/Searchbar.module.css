@@ -1,0 +1,19 @@
+.container {
+    width: 90%;
+    align-items: center;
+}
+
+.searchBar {
+    width: 100%;
+    padding: 0.4rem 0.5rem;
+    background: none;
+    border: 1px solid #323232;
+    border-bottom: 1px solid #9b9b9b;
+    border-radius: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.searchBar:focus {
+    outline: 0;
+    border-bottom: 2px solid #b0c6cb;
+}

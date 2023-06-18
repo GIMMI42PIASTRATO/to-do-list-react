@@ -2,6 +2,17 @@ import React from "react";
 import style from "../style/UserInfo.module.css";
 
 export default function UserInfo({ userInfo }) {
+    const emailLen = () => {
+        if (userInfo.email.length > 28) {
+            const slicedUserEmail = userInfo.email.slice(0, 25);
+            console.log((slicedUserEmail + "...").length);
+            return (
+                <div className={style.userEmail}>{slicedUserEmail + "..."}</div>
+            );
+        }
+        return <div className={style.userEmail}>{userInfo.email}</div>;
+    };
+
     return (
         <>
             <div className={style.container}>
@@ -14,7 +25,7 @@ export default function UserInfo({ userInfo }) {
                 </div>
                 <div className={style.userInfoContainer}>
                     <div className={style.userName}>{userInfo.name}</div>
-                    <div className={style.userEmail}>{userInfo.email}</div>
+                    {emailLen()}
                 </div>
             </div>
         </>

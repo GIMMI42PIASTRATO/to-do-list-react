@@ -5,10 +5,14 @@
     gap: 1rem;
     margin: 0.5rem 0;
     width: 100%;
-    padding: 0 7%;
+    padding: 0.5rem 7%;
 
 }
 /* ESEMPIO DI BOX-SIZING BORDER-BOX QUI SOPRA */
+
+.container:hover {
+    background-color: #202020;
+}
 
 .imageContainer {
     width: 4rem;
