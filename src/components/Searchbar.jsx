@@ -11,6 +11,7 @@ export default function Searchbar() {
                 name="listSearchbar"
                 id={uuidv4()}
                 placeholder="Search"
+                tabIndex={1}
             />
         </div>
     );

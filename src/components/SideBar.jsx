@@ -4,6 +4,7 @@ import UserInfo from "./UserInfo";
 import List from "./List";
 import Searchbar from "./Searchbar";
 import { TbSun, TbStar, TbHome } from "react-icons/tb";
+import { v4 as uuidv4 } from "uuid";
 
 const initialUser = {
     name: "Albedo Kreideprinz",
@@ -16,16 +17,19 @@ const lists = {
         icon: <TbSun />,
         text: "My day",
         color: "#788cde",
+        id: uuidv4(),
     },
     list1: {
         icon: <TbStar />,
         text: "Important",
         color: "#eaaeba",
+        id: uuidv4(),
     },
     list2: {
         icon: <TbHome />,
         text: "Activities",
         color: "#788cde",
+        id: uuidv4(),
     },
 };
 
