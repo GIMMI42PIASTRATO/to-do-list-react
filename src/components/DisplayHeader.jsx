@@ -30,11 +30,16 @@ const dayAsName = [
     "Saturday",
 ][date.getDay()];
 
-export default function DisplayHeader() {
+export default function DisplayHeader({ display }) {
     return (
-        <div className={style.container}>
-            <div>Test</div>
-            <div>{`${dayAsName}, ${dayNum} ${month}`}</div>
+        <div className={style.container} style={{ color: display.color }}>
+            <div className={style.text}>
+                {<display.icon />}
+                {display.text}
+            </div>
+            <div
+                className={style.date}
+            >{`${dayAsName}, ${dayNum} ${month}`}</div>
         </div>
     );
 }

@@ -4,6 +4,7 @@
 }
 
 .searchBar {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     padding: 0.4rem 0.5rem;
     background: none;
@@ -11,6 +12,7 @@
     border-bottom: 1px solid #9b9b9b;
     border-radius: 0.2rem;
     margin-bottom: 0.5rem;
+    color: white;
 }
 
 .searchBar:focus {
