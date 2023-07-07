@@ -1,0 +1,8 @@
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2.5rem;
+    max-height: 80vh;
+    overflow-y: scroll;
+    gap: 2px;
+}

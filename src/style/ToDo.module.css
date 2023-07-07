@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #2a2a2a;
+    font-size: 0.875rem;
+}
+
+.toDoMain {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.ceckBox {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+
+}

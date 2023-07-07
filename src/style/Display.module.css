@@ -1,5 +1,13 @@
 .container {
+    position: relative;
     margin: 0 0 0 13%;
+
+    width: 87%;
+}
+
+.addTodo {
+    position: fixed;
+    color: red;
 }
 
 /* .display {

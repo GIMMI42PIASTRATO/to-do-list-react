@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SideBar from "./components/SideBar";
-import ToDoDisplay from "./components/ToDoDisplay";
+import Display from "./components/Display";
 import lists from "./data/listsData";
 import "./style/App.css";
 
@@ -10,7 +10,7 @@ function App() {
     return (
         <>
             <SideBar setDisplay={setDisplay} />
-            <ToDoDisplay display={display} />
+            <Display display={display} />
         </>
     );
 }
