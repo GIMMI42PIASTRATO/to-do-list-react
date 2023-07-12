@@ -1,18 +1,7 @@
 .container {
-    position: relative;
-    margin: 0 0 0 13%;
-
-    width: 87%;
-}
-
-.addTodo {
-    position: fixed;
-    color: red;
-}
-
-/* .display {
     display: flex;
     flex-direction: column;
-    padding: 2rem 0 0 0 ;
-} */
-
+    /* margin: 0 0 0 13%;  MODIFICHE MARGINE PER LA SIDEBAR*/
+    margin: 0 0 0 20rem;
+    height: 100vh;
+}

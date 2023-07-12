@@ -3,8 +3,8 @@ import style from "../style/UserInfo.module.css";
 
 export default function UserInfo({ userInfo }) {
     const emailLen = () => {
-        if (userInfo.email.length > 28) {
-            const slicedUserEmail = userInfo.email.slice(0, 25);
+        if (userInfo.email.length > 27) {
+            const slicedUserEmail = userInfo.email.slice(0, 24);
             console.log((slicedUserEmail + "...").length);
             return (
                 <div className={style.userEmail}>{slicedUserEmail + "..."}</div>
