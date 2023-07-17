@@ -23,6 +23,14 @@ export default function ToDoContainer() {
                 <ToDo />
                 <ToDo />
                 <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
+                <ToDo />
             </div>
         </>
     );

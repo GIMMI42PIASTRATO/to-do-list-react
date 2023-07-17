@@ -9,6 +9,10 @@
     font-size: 0.875rem;
 }
 
+.container:hover {
+    background-color: #363636;
+}
+
 .toDoMain {
     display: flex;
     gap: 1rem;
