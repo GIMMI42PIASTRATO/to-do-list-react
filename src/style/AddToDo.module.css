@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 2.5rem 2rem 2.5rem;
+
+    padding: 0.5rem 1rem;
+    gap: 1rem;
+}
+
+.addToDo {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background: none;
+    border: none;
+
+}
+
+.addToDo:focus {
+    outline: none;
+}
