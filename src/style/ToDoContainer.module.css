@@ -3,6 +3,7 @@
     flex-direction: column;
     margin: 0 2.5rem;
     min-height: 30vh;
+    margin-bottom: 7.2rem;
     overflow-y: scroll;
     gap: 2px;
 }
