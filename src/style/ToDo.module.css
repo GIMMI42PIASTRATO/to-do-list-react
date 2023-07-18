@@ -15,11 +15,20 @@
 
 .toDoMain {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
+.checkBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    /* border-radius: 50%; */ /* Rimosso rende più semplice il check dei todo */
+    cursor: pointer;
+}
 
-.ceckBox {
+
+
+/* .ceckBox {
     margin: 0;
     padding: 0;
     border: none;
@@ -28,4 +37,4 @@
 
 .ceckBox:hover { 
     outline: none;
-}
+} */

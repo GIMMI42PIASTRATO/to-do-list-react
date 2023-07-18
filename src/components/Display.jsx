@@ -9,9 +9,9 @@ export default function Display({ display }) {
         <div className={style.container}>
             <DisplayHeader display={display} />
 
-            <ToDoContainer />
+            <ToDoContainer data={display} />
 
-            <AddToDo />
+            <AddToDo data={display} />
         </div>
     );
 }
