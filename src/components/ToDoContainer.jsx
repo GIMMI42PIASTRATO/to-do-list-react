@@ -6,31 +6,7 @@ export default function ToDoContainer({ data }) {
     return (
         <>
             <div className={style.toDoContainer}>
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
-                <ToDo />
+                <ToDo data={data} />
             </div>
         </>
     );
