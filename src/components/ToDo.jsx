@@ -8,7 +8,7 @@ import {
     TbStarFilled,
 } from "react-icons/tb";
 
-export default function ToDo({ data }) {
+export default function ToDo({ data, title }) {
     const [isHovered, setIsHovered] = useState(false);
     const [isDone, setIsDone] = useState(false);
     const [isImportant, setIsImportant] = useState(false);
@@ -37,7 +37,7 @@ export default function ToDo({ data }) {
                 )}
 
                 <div className={style.info}>
-                    <div>Nome attività</div>
+                    <div>{title}</div>
                     <div>Categoria</div>
                 </div>
             </div>
